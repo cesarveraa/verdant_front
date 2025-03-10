@@ -200,8 +200,7 @@ export default function CropsScreen() {
             </ScrollView>
           </View>
         </TapGestureHandler>
-        // En el return del componente CropsScreen, reemplaza la sección del botón por:
-        // En el componente CropsScreen (dentro del return):
+       
         <Animated.View style={[styles.notificationButton, { transform: [{ scale: buttonScale }] }]}>
           <TouchableOpacity
             onPress={() => {
