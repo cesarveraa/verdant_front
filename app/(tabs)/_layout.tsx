@@ -81,6 +81,7 @@ export default function TabsLayout() {
           })}
         >
           <Tabs.Screen name="(chat)" options={{ href: null }} /> {/* Ocultar completamente */}
+          <Tabs.Screen name="(dashboard)" options={{ href: null }} /> {/* Ocultar completamente */}
 
           <Tabs.Screen name="map" options={{ title: "Map" }} />
           <Tabs.Screen name="home" options={{ title: "Home" }} />
