@@ -121,9 +121,7 @@ export default function PestsScreen() {
           </TouchableOpacity>
         </Animated.View>
 
-        <View style={styles.header}>
-          <Text style={styles.title}>Pest Directory</Text>
-        </View>
+        
 
         <ScrollView style={styles.scrollView}>
           {PESTS.map((pest) => (

@@ -155,9 +155,7 @@ export default function CropsScreen() {
         >
           <View style={styles.gestureArea}>
             <ScrollView>
-              <View style={styles.header}>
-                <Text style={styles.title}>Your Crops</Text>
-              </View>
+              
 
               {selectedCrop && (
                 <View style={styles.selectedCropCard}>
